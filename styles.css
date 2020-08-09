@@ -1,8 +1,16 @@
 *{ padding: 0;}
-
+header img, h1 {
+    display: inline-block;
+}
+h1{
+  text-align: right;
+    width: 100%;
+    display: inline-block;
+}
 img{
     width: 300px;
     height: 300px;
+    display: inline-block;
 }
 
 .div-body{
@@ -13,6 +21,23 @@ img{
     background-color: white;
 }
 
+.menu{
+    width: 100%;
+    background-color: rgb(230, 172, 97);
+    margin: 40PX;
+}
+
+.menu li {
+    list-style-type: none;
+    padding: 5px;
+    margin: 5px;
+    font: bold 14px black;
+    display: inline-block;
+}
+a{
+text-decoration: none;
+color: black;
+}
 .contact-info{
  margin: 20px;
 padding-left: 730px;
@@ -27,9 +52,19 @@ text-align: right;
 .addressee li{
     list-style: none;
 }
-.table{
+caption{
+    padding: 5px;
     border: 1px solid black;
 }
-.nav-menu{
-    list-style-type: none;
+.table{
+    align:center;
+    -ms-grid-row-span: 2px;
+    margin: 40PX;
+}
+.table th, td{
+    border: 1px solid black;
+    padding: 30px;
+}
+#titles th{
+    background-color: cadetblue;
 }
