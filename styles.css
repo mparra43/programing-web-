@@ -30,3 +30,6 @@ text-align: right;
 .table{
     border: 1px solid black;
 }
+.nav-menu{
+    list-style-type: none;
+}
