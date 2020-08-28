@@ -68,3 +68,54 @@ caption{
 #titles th{
     background-color: cadetblue;
 }
+.progress-container{
+position: absolute;
+width: 100%;
+height: 100%;
+}
+
+.identify{
+    background-color: whitesmoke;
+    width:20%;
+    height: 2%;
+    border-radius: 1rem;
+    border: 1px solid black;
+    
+}
+.problem{ 
+    background-color: green;
+width: 80%;
+height: 100%;
+border-radius: 1rem;
+}
+body{
+    
+    width: 980px;
+    margin:20px auto;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: white;
+}
+.sidebar{
+    margin: 20px;
+width: 300px;
+padding: 20px;
+background-color: whitesmoke;
+
+}
+#info_professional{
+    float: right;
+    margin: 20px;
+    width: 500px;
+    padding: 20px;
+}
+.info_contact li{
+    list-style-type: none;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+#Hobbies li{
+    padding-left: 20px;
+    margin: 5px;
+}
